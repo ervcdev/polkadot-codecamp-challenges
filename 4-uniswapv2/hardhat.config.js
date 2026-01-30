@@ -33,7 +33,7 @@ module.exports = {
         // Polkadot Hub TestNet
         polkadotHubTestnet: {
             polkavm: true,
-            url: 'https://testnet-passet-hub-eth-rpc.polkadot.io',
+            url: 'https://eth-rpc-testnet.polkadot.io/',
             accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
             // accounts: [vars.get("PRIVATE_KEY")]
         },

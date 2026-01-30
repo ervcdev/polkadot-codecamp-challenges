@@ -2,13 +2,13 @@ import { createPublicClient, http, createWalletClient, custom } from 'viem'
 import 'viem/window';
 
 
-const transport = http('https://testnet-passet-hub-eth-rpc.polkadot.io')
+const transport = http('https://eth-rpc-testnet.polkadot.io/')
 
 // Configure the Passet Hub chain
 export const passetHub = {
-  id: 420420422,
-  name: 'Passet Hub',
-  network: 'passet-hub',
+  id: 420420417,
+  name: 'Polkadot Hub Testnet ',
+  network: 'polkadot-hub-testnet',
   nativeCurrency: {
     decimals: 18,
     name: 'PAS',
@@ -16,7 +16,7 @@ export const passetHub = {
   },
   rpcUrls: {
     default: {
-      http: ['https://testnet-passet-hub-eth-rpc.polkadot.io'],
+      http: ['https://eth-rpc-testnet.polkadot.io/'],
     },
   },
 } as const

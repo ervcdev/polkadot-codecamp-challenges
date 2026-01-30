@@ -34,12 +34,12 @@ Build the UI with features based on the requirements:
 
 | Property | Value |
 |----------|--------|
-| Network Name | Paseo Asset Hub |
-| RPC URL | https://testnet-passet-hub-eth-rpc.polkadot.io/ |
-| Chain ID | 420420422 |
+| Network Name | Polkadot Hub TestNet |
+| RPC URL | https://eth-rpc-testnet.polkadot.io/ |
+| Chain ID | 420420417 |
 | Symbol   | PAS       | 
-| Explorer | https://blockscout-passet-hub.parity-testnet.parity.io/ |
-| Faucet | https://faucet.polkadot.io/?parachain=1111 |
+| Explorer | https://blockscout-testnet.polkadot.io/ |
+| Faucet | https://docs.polkadot.com/smart-contracts/connect/#test-tokens |
 
 Quick link: https://chainlist.org/chain/420420422
 
